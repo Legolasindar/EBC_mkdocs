@@ -3,7 +3,6 @@ theme: readthedocs
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
 
 pages:
 - Home: 'index.md'
