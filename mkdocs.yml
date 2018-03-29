@@ -1,0 +1,26 @@
+site_name: MkLorum
+theme: readthedocs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
+pages:
+- Home: 'index.md'
+- Fase1:
+    - 'Benvinguda': 'fase1/benvinguda.md'
+    - 'Simulador': 'fase1/simulador.md'
+- Fase2:
+    - 'Benvinguda': 'fase1/benvinguda.md'
+    - 'Simulador': 'fase1/simulador.md'
+- Fase3:
+    - 'Benvinguda': 'fase1/benvinguda.md'
+    - 'Simulador': 'fase1/simulador.md'
+- Fase4:
+    - 'Benvinguda': 'fase1/benvinguda.md'
+    - 'MOUT': 'fase4/mout.md'
+
+- Notes finals:
+    - 'Protocol operatiu de comunicació "POC"': 'notes/poc.md'
+    - 'Bibliografia': 'notes/bibliografia.md'
+    - 'Crèdits': 'notes/credits.md'

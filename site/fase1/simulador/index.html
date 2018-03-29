@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Simulador - MkLorum</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Simulador";
+    var mkdocs_page_input_path = "fase1\\simulador.md";
+    var mkdocs_page_url = "/fase1/simulador/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> MkLorum</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fase1</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../benvinguda/">Benvinguda</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="./">Simulador</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#simulador">Simulador</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#configuracio">Configuració</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-basiques">Tecles bàsiques</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-ace-3-versio-xxx">Tecles ACE 3 (versió x.x.x)</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-acre-2-versio-xxx">Tecles ACRE 2 (versió x.x.x)</a></li>
+        
+            <li><a class="toctree-l4" href="#multijugador">Multijugador</a></li>
+        
+            <li><a class="toctree-l4" href="#virtual-arsenal">Virtual Arsenal</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fase2</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../benvinguda/">Benvinguda</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="./">Simulador</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#simulador">Simulador</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#configuracio">Configuració</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-basiques">Tecles bàsiques</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-ace-3-versio-xxx">Tecles ACE 3 (versió x.x.x)</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-acre-2-versio-xxx">Tecles ACRE 2 (versió x.x.x)</a></li>
+        
+            <li><a class="toctree-l4" href="#multijugador">Multijugador</a></li>
+        
+            <li><a class="toctree-l4" href="#virtual-arsenal">Virtual Arsenal</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fase3</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../benvinguda/">Benvinguda</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Simulador</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#simulador">Simulador</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#configuracio">Configuració</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-basiques">Tecles bàsiques</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-ace-3-versio-xxx">Tecles ACE 3 (versió x.x.x)</a></li>
+        
+            <li><a class="toctree-l4" href="#tecles-acre-2-versio-xxx">Tecles ACRE 2 (versió x.x.x)</a></li>
+        
+            <li><a class="toctree-l4" href="#multijugador">Multijugador</a></li>
+        
+            <li><a class="toctree-l4" href="#virtual-arsenal">Virtual Arsenal</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fase4</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../benvinguda/">Benvinguda</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../fase4/mout/">MOUT</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Notes finals</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../notes/poc/">Protocol operatiu de comunicació "POC"</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../notes/bibliografia/">Bibliografia</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../notes/credits/">Crèdits</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">MkLorum</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Fase3 &raquo;</li>
+        
+      
+    
+    <li>Simulador</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="simulador">Simulador</h1>
+<p>El simulador que fem servir actualment al grup és l'ArmA 3. És un simulador d'infanteria, amb la capacitat d'usar vehicles com a suport de la infanteria. Tot i que el simulador té un elevat realisme i complexitat pel que fa a la infanteria és molt més moderat per als vehicles.</p>
+<p>El simulador també permet l'ús de «addons» fets per la comunitat, que modifiquen, milloren i/o inclouen noves característiques o material, com noves armes, vehicles, funcions, o sistemes.</p>
+<p>Degut a l'alt nivell de complexitat, les partides a la saga ArmA són molt diferents de les partides en productes més comercials. Ja que requereixen de més coneixements militars, i d'actuacions més tàctiques.</p>
+<p>ArmA 3 és un simulador molt complex, que requereix de molts mecanismes i tecles per funcionar: en aquest apartat descriurem tots aquests mecanismes.</p>
+<h2 id="configuracio">Configuració</h2>
+<p>Aquí et donarem unes nocions bàsiques d'alguns paràmetres importants per configurar el simulador i extreure'n el màxim de rendiment.</p>
+<p>Per evitar possibles problemes, es recomana llançar el simulador amb permisos d'administrador. Cal que poseu el permisos al fitxer arma3.exe a la carpeta arrel del simulador.</p>
+<h3 id="joc">Joc</h3>
+<p>Es recomana ajustar el Capcineig a un nivell baix. És el que fa que el soldat mogui el cap en caminar, i a nivells més alts pot ser molest i dificultar la identificació d'amenaces.</p>
+<p>Per saber el nivell de dificultat que cal establir, consulteu el PDB (Paquet de benvinguda) que us vam donar a l'entrar al grup.</p>
+<h3 id="so">So</h3>
+<p>Una explicació bàsica dels paràmetres de configuració de so.</p>
+<p><img alt="image" src="../../_imatges/conf_so_01.jpg" /></p>
+<ul>
+<li><strong>Efectes:</strong> És el volum de tots els efectes especials, explosions, trets, etc.</li>
+<li><strong>Música:</strong> Recomanem desactivar la música, perquè no molesti.</li>
+<li><strong>Ràdio:</strong> És el volum de les converses de guio de les missions.</li>
+<li><strong>Veu en xarxa:</strong> És el volum de les converses dels jugadors, amb el propi sistema de veu del simulador.</li>
+<li><strong>Fonts de So:</strong> És el numero d'efectes de so que poden reproduir-se al mateix moment. Recomanem posar 128 per no perdre detall.</li>
+<li><strong>Micròfon:</strong> És la sensibilitat del micròfon. Com més sensible, més fàcil que enviï la nostra veu per VOIP.</li>
+</ul>
+<h3 id="video">Vídeo</h3>
+<p>Una explicació bàsica dels paràmetres de configuració de vídeo.</p>
+<p><img alt="image" src="../../_imatges/conf_video_01.jpg" /></p>
+<ul>
+<li><strong>Muestreig:</strong> Re-escala la imatge. Si no tenim un ordinador molt potent, deixar a 100% i mai posar a menys.</li>
+<li><strong>Textura:</strong> Qualitat de la textura, es recomana entre Alta i Molt Alta.</li>
+<li><strong>Objectes:</strong> El número d'objectes que es mostren a llarga distància, es recomana entre Alta i Ultra.</li>
+<li><strong>Terreny:</strong> La qualitat del terreny, es recomana entre Estàndard i Alta.</li>
+<li><strong>Ombra:</strong> La qualitat d'ombres, es recomana Alta o superior, o Desactivat.</li>
+<li><strong>Partícules:</strong> La qualitat de partícules, es recomana entre Estàndard o Alta.</li>
+<li><strong>Núvols:</strong> Es recomana Baixa tret que tinguis un ordinador potent.</li>
+<li><strong>PIP:</strong> Miralls, pantalles de vídeo dels vehicles, etc. Es recomana Baix o Desactivat.</li>
+<li><strong>Rang Dinàmic (HDR):</strong> Entre Baix i Estàndard, canvia molt l'aspecte del simulador. Per una il·luminació més natural, deixar en Estàndard.</li>
+<li><strong>Visibilitat (General, Objecte, Ombra):</strong> La distància de dibuix, és una decisió personal basada en la potència de l'ordinador.</li>
+</ul>
+<p><img alt="image" src="../../_imatges/conf_video_02.jpg" /></p>
+<ul>
+<li><strong>Mode de visualització:</strong> Es recomana Pantalla completa.</li>
+<li><strong>Resolució:</strong> És molt important fer servir la resolució nativa del nostre monitor.</li>
+<li><strong>Relació d'aspecte:</strong> Igual que en resolució, fer servir el del nostre monitor.</li>
+<li><strong>Sincronització vertical:</strong> Es recomana Activat.</li>
+<li><strong>Interfície:</strong> La mida de la interfície del simulador.</li>
+<li><strong>Brillantor:</strong> Regular la il·luminació de la imatge.</li>
+<li><strong>Correcció gamma:</strong> Regula la correcció cromàtica.</li>
+</ul>
+<p><img alt="image" src="../../_imatges/conf_video_03.jpg" /></p>
+<ul>
+<li><strong>Brillantor reflectida (Bloom):</strong> Purament estètic, es recomana deixar a 100.</li>
+<li><strong>Difuminat radial (Motion blur d'objectes):</strong> Es recomana Desactivat o 25.</li>
+<li><strong>Difuminat en rotació (Motion blur):</strong> Es recomana Desactivat o 12.5.</li>
+<li><strong>Profunditat de camp:</strong> El desenfocament focal, es recomana Desactivat o 25.</li>
+<li><strong>Sharpen Filter:</strong> Enfoca la imatge, fent tot mes definit. Es recomana Desactivat o al gust de l'usuari.</li>
+<li><strong>Oclusió de pantalla:</strong> Millorar les ombres de tots els objectes, es recomana Oclusió de pantalla Baixa.</li>
+<li><strong>Càustica:</strong> Projecció de llum, com els raigs que travessen els copes del arbres, es recomana Activat.</li>
+<li><strong>Suavitzat de bores a pantalla completa (Antialiasing):</strong> Es recomana mínim x2, si l'ordinador ho permet, a mes millor.</li>
+<li><strong>Rati d'aspecte (AToC):</strong> Es recomana només Arbres.</li>
+<li><strong>Post-processat suavitzat de bores (PPAA):</strong> Es recomana de SFAA Alta a Ultra o Desactivat.</li>
+<li><strong>Filtre anisotropic:</strong> Es recomana Molt Alta o Ultra.</li>
+</ul>
+<h2 id="tecles-basiques">Tecles bàsiques</h2>
+<div class="warning">
+
+<div class="admonition-title">
+
+Warning
+
+</div>
+
+</div>
+
+<blockquote>
+<p>S'han de posar les tecles</p>
+</blockquote>
+<h3 id="infanteria">Infanteria</h3>
+<h3 id="vehicles-terrestres">Vehicles terrestres</h3>
+<h3 id="avions">Avions</h3>
+<h3 id="helicopters">Helicòpters</h3>
+<h3 id="submarins">Submarins</h3>
+<h2 id="tecles-ace-3-versio-xxx">Tecles ACE 3 (versió x.x.x)</h2>
+<h2 id="tecles-acre-2-versio-xxx">Tecles ACRE 2 (versió x.x.x)</h2>
+<h2 id="multijugador">Multijugador</h2>
+<h3 id="cercar-servidors">Cercar servidors</h3>
+<p>Si volem cercar servidors ja creats, al l'explorador de servidors tenim diferents opcions.</p>
+<p><img alt="image" src="../../_imatges/multi_servidors.jpg" /></p>
+<p>Aquí podeu seleccionar a dalt a la dreta, on posa direcció, si voleu veure els servidors d'Internet, o els interns de la vostre LAN.</p>
+<p>Els servidors del llistat poden tenir a l'esquerra quatre tipus d'icones de colors.</p>
+<blockquote>
+<p>+-----------------------------------------+-----------------------------------------------------------------------------+ | Simbol | Significat | +=======================+=================+=============================================================================+ | .. image:: ../_imatges/serv_verd.png | Totalment compatible amb la nostre versió de l'ArmA 3. | +-----------------------------------------+-----------------------------------------------------------------------------+ | .. image:: ../_imatges/serv_vermell.png | Incompatible amb la nostre versió de l'ArmA 3. | +-----------------------------------------+-----------------------------------------------------------------------------+ | .. image:: ../_imatges/serv_groc.png | Diferencies de versió que el podria fer incompatible, però sovint funciona. | +-----------------------------------------+-----------------------------------------------------------------------------+ | .. image:: ../_imatges/serv_pass.png | Servidor amb contrasenya. | +-----------------------------------------+-----------------------------------------------------------------------------+</p>
+</blockquote>
+<p>Degut a que fem servir un estàndard d'addons propis a la comunitat, la majoria sortiran al llistat com Grocs o Vermells, però els grocs funcionen moltes vegades.</p>
+<p>Si volem cercar un servidor en concret, com el de la nostra comunitat, el millor és fer servir el botó Filtre que veieu a la captura.</p>
+<p><img alt="image" src="../../_imatges/multi_filtre.jpg" /></p>
+<p>Aquí tenim diferents paràmetres a configurar, tot i que en realitat normalment es deixen tots tal com es veu a la pantalla, i l'únic que fem és a Amfitrió posar el nom del servidor que volem cercar, en aquest captura, cavallers.</p>
+<h3 id="crear-servidors">Crear servidors</h3>
+<p>Si el que vols és crear partida, tens dues opcions. Muntar un servidor dedicat, més orientat a qui tingui un bon ample de banda a casa i a ser possible (però no indispensable) un ordinador extra que porti la partida i faci de host. O crear una partida multijugador normal, més ràpid i fàcil, però sense donar-nos tanta potència de servidor.</p>
+<p>Aquí només t'explicarem com muntar una partida normal multijugador.</p>
+<p>Per crear la partida, primer cal obrir els ports necessaris al teu router. Per saber com obrir ports adreçat al manual del teu router, a les pàgines d'internet sobre ADSL/Fibra Òptica o al teu proveïdor.</p>
+<p>Els ports necessaris son:</p>
+<blockquote>
+<p><table style="width:58%;">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 18%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aplicació</th>
+<th>Protocol</th>
+<th>Prot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Battleye</td>
+<td>TCP/UDP</td>
+<td>2344</td>
+</tr>
+<tr class="even">
+<td>Battleye</td>
+<td>TCP</td>
+<td>2345</td>
+</tr>
+<tr class="odd">
+<td>ArmA 3/Steam</td>
+<td>UDP</td>
+<td>2302-2305</td>
+</tr>
+<tr class="even">
+<td>Steam</td>
+<td>UDP</td>
+<td>27000-27030</td>
+</tr>
+<tr class="odd">
+<td>Steam</td>
+<td>UDP</td>
+<td>4380</td>
+</tr>
+<tr class="even">
+<td>Steam</td>
+<td>TCP/UDP</td>
+<td>8766</td>
+</tr>
+</tbody>
+</table></p>
+</blockquote>
+<p>Un cop tinguis els ports oberts, a l'explorador de servidors fes clic al botó Nova, i veuràs aquesta pantalla.</p>
+<p><img alt="image" src="../../_imatges/multi_host.jpg" /></p>
+<p>Aquí has d'escriure el nom del servidor, si vols que funcioni a Internet o a LAN, el port que vols fer servir, normalment sempre entre el port 2303 i 2305, el nombre de jugadors màxims i la contrasenya si vols.</p>
+<h2 id="virtual-arsenal">Virtual Arsenal</h2>
+<p>El Virtual Arsenal o VA, és l'eina que integra el simulador Arma 3 que et permet modificar el teu equipament d'una manera ràpida i eficaç.</p>
+<p>Per accedir a l'eina és necessari que la missió on et trobis hagi estat editada afegint aquesta opció. Normalment trobaràs l'opció del Virtual Arsenal a les caixes de munició designades.</p>
+<p><img alt="image" src="../../_imatges/ebc_va_01.jpg" /></p>
+<p>Un cop seleccionada l'opció d'Arsenal et veuràs en tercera persona amb diverses opcions en pantalla. Classificarem la informació que veiem en pantalla en <em>Opcions d'equipament</em> i <em>Opcions de gestió</em>.</p>
+<p><img alt="image" src="../../_imatges/ebc_va_02.jpg" /></p>
+<h3 id="opcions-de-gestio">Opcions de gestió</h3>
+<p>Les opcions de gestió et permeten fàcilment intercanviar diversos perfils per minimitzar el temps necessari per equipar-te.</p>
+<ul>
+<li><strong>Close / Tancar:</strong> Tanca l'eina i tornes al simulador amb l'equipament que hagis escollit</li>
+<li><strong>Hide / Amagar:</strong> Amaga la interfície gràfica per deixar-te la vista en tercera persona. En fer clic a qualsevol punt de la pantalla tornes a la pantalla d'Arsenal</li>
+<li><strong>Random / Aleatori:</strong> Aquesta opció realitza una configuració aleatòria del teu equipament. No és una opció que fem servir al nostre estàndard ja que sempre tindràs control sobre el teu equipament abans d'entrar en missió</li>
+<li><strong>Save / Desar:</strong> Permet guardar tot l'equipament actual que portis. Et demanarà el nom del perfil per desar i si ja existeix el sobreescriurà. És recomanable que per cada missió un cop personalitzat l'equipament et guardis en un perfil 'actual' de manera que podràs carregar-ho cada cop que sigui necessari durant la missió</li>
+<li><strong>Load / Carregar:</strong> Aquesta opció et permet carregar l'equipament d'un perfil desat anteriorment. A l'estàndard pots trobar un conjunt de perfils ja personalitzats pels diferents rols que pots assolir. Actualment et pots trobar amb alguns elements del teu equipament que encara que els desis en un perfil en carregar no s'afegeixen al teu equipament de manera que convé fer una comprovació ràpida del teu equipament. És un error del simulador.</li>
+<li><strong>Export / Exportar:</strong> Permet exportar al porta-papers la configuració actual del teu equipament per poder compartir-ho amb altres usuaris.</li>
+<li><strong>Import / Importar:</strong> Permet importar la configuració de l'equipament del porta-papers.</li>
+</ul>
+<p><img alt="image" src="../../_imatges/ebc_va_03.jpg" /></p>
+<h3 id="opcions-dequipament">Opcions d'equipament</h3>
+<p>Les opcions d'equipament les tens distribuïdes en diferents icones que fan referència a <strong>l'armament</strong> (fusell, llançador i pistola), <strong>uniformació</strong> (uniforme, armilla, motxilla i casc), <strong>accessoris</strong> (ulleres/passamuntanyes, dispositius de visió nocturna, binocles, mapa, terminal, comunicacions, navegació i rellotge) i <strong>personalitzacions</strong> (cara, veu i insígnia).</p>
+<h4 id="armament">Armament</h4>
+<p>Dintre de les tres opcions d'armament pots escollir tant l'arma com els seus accessoris (mires, afegits de rail i afegits de canó).</p>
+<p><img alt="image" src="../../_imatges/ebc_va_04.jpg" /></p>
+<h4 id="uniformacio">Uniformació</h4>
+<p>Dintre de les opcions d'uniformació pots seleccionar tipus d'uniformes, armilles i motxilles que et permeten afegir material al seu interior.</p>
+<p><img alt="image" src="../../_imatges/ebc_va_05.jpg" /></p>
+<p>Per cada element que vulguis afegir o treure fes ús dels símbols + i -.</p>
+<p>La numeració a la dreta de l'element et diu quantes unitats portes de d'aquell element a l'inventari de la peça d'uniforme seleccionada. Per exemple, portes 10 granades M67 a l'armilla.</p>
+<p>La capacitat de càrrega disponible i ocupada es mostra mitjançant una barra blanca a la part inferior del quadre d'inventari de la peça d'uniforme seleccionada.</p>
+<p><img alt="image" src="../../_imatges/ebc_va_06.jpg" /></p>
+<h4 id="acessoris">Acessoris</h4>
+<p>Els accessoris no permeten multiplicitat a través del Virtual Arsenal, de manera que per cada element d'accessori només es permet un element. Si vols carregar més d'un element d'aquest tipus, hauràs de moure l'element a l'uniforme/armilla/motxilla i tornar a seleccionar-lo al VA.</p>
+<ul>
+<li><strong>Ulleres / passamuntanyes:</strong> Elements accessoris de cara.</li>
+<li><strong>NVGs:</strong> Dispositius de visió nocturna.</li>
+<li><strong>Binocles:</strong> Binocles, designadors laser i altres dispositius de telemetria.</li>
+<li><strong>Mapa:</strong> Mapes.</li>
+<li><strong>Terminal:</strong> Tablets i dispositius per UAV.</li>
+<li><strong>Navegació:</strong> Brúixoles.</li>
+<li><strong>Rellotge:</strong> Rellotges.</li>
+</ul>
+<h4 id="personalitzacions">Personalitzacions</h4>
+<p>Els elements de personalització et permeten diferenciar el teu personatge per la seva cara, veu, així com afegir una insígnia ja sigui la del grup 1RA, rang associat o qualsevol altre.</p>
+<p>En aquesta segona fase, començaràs a aprendre els conceptes bàsics que ha de saber un soldat, com les RDC o Regles de combat (ROE en anglès "Rules of Engagement"), la navegació a peu, patrullar o les primeres nocions sobre fer servir armes de foc.</p>
+<p>La informació que es dóna està limitada al què es vol ensenyar, i es deixa de banda la informació més ampliada per següents capítols o cursos i/o monogràfics més avançats.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../benvinguda/" class="btn btn-neutral float-right" title="Benvinguda">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../benvinguda/" class="btn btn-neutral" title="Benvinguda"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../benvinguda/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../benvinguda/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>
