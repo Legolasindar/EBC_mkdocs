@@ -340,34 +340,18 @@ Les estàncies segueixen un patró similar sempre en ser construccions humanes, 
 </tbody>
 </table>
 
-<div class="important">
+!!! important
 
-<div class="admonition-title">
+	Per notificar la neteja es comença des del final. Un cop es determina que està neta l'habitació, el líder de l'equip de neteja ho ha de comunicar.
 
-Important
-
-</div>
-
-Per notificar la neteja es comença des del final. Un cop es determina que està neta l'habitació, el líder de l'equip de neteja ho ha de comunicar.
-
-</div>
-
-<div class="important">
-
-<div class="admonition-title">
-
-Important
-
-</div>
-
-- **En tot moment t'has de mantenir enganxat a la paret de l'entrada,** ja que si avances per l'habitació ets situes en la línia de foc dels companys. En entrades centrals, la mateixa paret de l'entrada, i en entrades laterals, les dues parets de la cantonada de l'entrada.
-- **En cap moment pots deixar d'avançar cap a la teva posició final,** encara que disparis, ja que si no estàs bloquejant els companys.
-- **Els dos primers en entrar tenen assignats els sectors 1 i 2,** per tant només es podria disparar a enemics en el sectors 3 i 4 quan s'entra si són trets d'oportunitat que no aturin el moviment. De res serveix que eliminis un enemic al sector 3, si el que està al sector 1 té temps d'eliminar-te davant de la porta, bloquejant els teus companys.
-- **Abans d'entrar s'ha de revisar el carregador,** no vols entrar amb poques bales.
-- **En cas de no tenir equip de cobertura el número 4 es pot quedar davant de la porta per dintre cobrint cap enfora,** així s'evita que l'equip sigui sorprès per darrera.
-- **Quan l'equip surti d'un edifici, ha d'avisar a les unitats de fora,** indicant el número de soldats que surten, per exemple **Quatre sortint\!**. Aixi s'evita el foc amic.
-
-</div>
+!!! important
+	
+	- **En tot moment t'has de mantenir enganxat a la paret de l'entrada,** ja que si avances per l'habitació ets situes en la línia de foc dels companys. En entrades centrals, la mateixa paret de l'entrada, i en entrades laterals, les dues parets de la cantonada de l'entrada.
+	- **En cap moment pots deixar d'avançar cap a la teva posició final,** encara que disparis, ja que si no estàs bloquejant els companys.
+	- **Els dos primers en entrar tenen assignats els sectors 1 i 2,** per tant només es podria disparar a enemics en el sectors 3 i 4 quan s'entra si són trets d'oportunitat que no aturin el moviment. De res serveix que eliminis un enemic al sector 3, si el que està al sector 1 té temps d'eliminar-te davant de la porta, bloquejant els teus companys.
+	- **Abans d'entrar s'ha de revisar el carregador,** no vols entrar amb poques bales.
+	- **En cas de no tenir equip de cobertura el número 4 es pot quedar davant de la porta per dintre cobrint cap enfora,** així s'evita que l'equip sigui sorprès per darrera.
+	- **Quan l'equip surti d'un edifici, ha d'avisar a les unitats de fora,** indicant el número de soldats que surten, per exemple **Quatre sortint\!**. Aixi s'evita el foc amic.
 
 !!! important
     - wr2
