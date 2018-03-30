@@ -3,8 +3,7 @@ theme: readthedocs
 
 markdown_extensions:
   - admonition
-  - pymdownx.keys:
-      separator: "\uff0b"
+  - pymdownx.keys
   
 extra_css:
     - _static/css/custom.css
