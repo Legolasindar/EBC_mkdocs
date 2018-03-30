@@ -20,6 +20,16 @@ Prem la tecla `F`
 
 <span data-role="kbd">F</span>
 
+++ctrl+alt+delete++
+
+++ctrl + alt + delete++
+
+++f++
+
+++F++
+
+++ctrl-F++
+
 El **1er Regiment Aerotransportat** és un dels grups que pertany a la comunitat Catalana de simulació **Cavallers del Cel**. Dintre del **1RA** és realitzen missions de combat posant en practica tàctiques i estratègies reals en entorns altament hostils i amb un component de rol important per ajudar-nos a la immersió.
 
 Per aconseguir completar les missions amb èxit, tenim un programa de reclutes on impartim classes de manera regular per formar als nous membres en una acadèmia virtual creada al simulador.
