@@ -1,23 +1,38 @@
-site_name: MkLorum
+site_name: 1RA - Entrenament Bàsic de Combat
 theme: readthedocs
 
 markdown_extensions:
   - admonition
+  
+extra_css:
+    - _static/css/custom.css
 
 pages:
-- Home: 'index.md'
-- Fase1:
+- Introducció: 'index.md'
+- Fase1 - Groga:
     - 'Benvinguda': 'fase1/benvinguda.md'
     - 'Simulador': 'fase1/simulador.md'
-- Fase2:
-    - 'Benvinguda': 'fase1/benvinguda.md'
-    - 'Simulador': 'fase1/simulador.md'
-- Fase3:
-    - 'Benvinguda': 'fase1/benvinguda.md'
-    - 'Simulador': 'fase1/simulador.md'
-- Fase4:
-    - 'Benvinguda': 'fase1/benvinguda.md'
-    - 'MOUT': 'fase4/mout.md'
+- Fase2 - Vermella:
+    - 'Balística i fonaments de la punteria amb fusell': 'fase2/punteria1.md'
+    - 'Regles de combat': 'fase2/rdc.md'
+    - 'Navegació terrestre desmuntada': 'fase2/navegacio.md'
+    - 'Camuflatge i ocultació': 'fase2/camuflatge.md'
+    - 'Patrulla i formacions': 'fase2/patrulla.md'
+- Fase3 - Blanca:
+    - 'Fonaments de la punteria amb fusell reforçats': 'fase3/punteria2.md'
+    - 'Prioritzar i atacar objectius a diferents distàncies': 'fase3/prioritzar.md'
+- Fase4 - Blava:
+    - 'Comunicacions': 'fase4/comunicacions.md'
+    - 'Punteria avançada amb fusell': 'fase4/punteria3.md'
+    - 'Maniobrar i atacar objectius com a part d’una esquadra': 'fase4/maniobrar.md'
+    - 'Granades de fragmentació M67 i de fum M18': 'fase4/granades.md'
+    - 'Emprar armes mes potents i de tripulació': 'fase4/armes_tripulacio.md'
+    - 'Metralladora M240B': 'fase4/metralladores.md'
+    - 'Fusell automàtic M249': 'fase4/fusell_auto.md'
+    - 'Llançador antitanc AT4': 'fase4/antitanc.md'
+    - 'Llançagranades de 40mm M203': 'fase4/llan_granades.md'
+    - 'Operacions militars a terreny urbà (MOUT - Military Operations in Urban Terrain)': 'fase4/mout.md'
+    - 'Defensa del comboi': 'fase4/comboi.md'
 
 - Notes finals:
     - 'Protocol operatiu de comunicació "POC"': 'notes/poc.md'

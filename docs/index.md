@@ -1,6 +1,4 @@
-# Benvingut al manual d'Entrenament Bàsic de Combat
-
-## Sobre el 1er Regiment Aerotransportat
+# Sobre el 1er Regiment Aerotransportat
 
 ![image](_imatges/cc_arma_v4_440.png)
 
@@ -41,6 +39,3 @@ L'EBC és un curs centrat en la formació més primordial, que pretén atorgar a
 Els curs es dividirà per fases, extretes de cursos reals d'infanteria, on progressivament s'anirà ampliant la formació de l'alumne. Cada fase podrà ser composta per una o diverses classes, depenent de la matèria i el temps disponible.
 
 Un cop completat el curs, aprovant els exàmens que es facin, el Recluta ascendirà a Soldat.
-
-## Fases:
-
